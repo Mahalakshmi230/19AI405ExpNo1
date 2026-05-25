@@ -142,12 +142,3 @@ agent.run()
 The intelligent surveillance agent was successfully implemented. It used internal state (risk scores), probabilistic sensing, and adaptive decision-making to improve detection efficiency and overall performance.
 
 
-```
-
-## Output
-
-<img width="1506" height="807" alt="Screenshot 2026-04-27 101728" src="https://github.com/user-attachments/assets/d3590316-d49e-4c65-a967-5aac8fd99318" />
-
-## Result 
-
-The intelligent surveillance agent was successfully implemented. It used internal state (risk scores), probabilistic sensing, and adaptive decision-making to improve detection efficiency and overall performance.
