@@ -52,60 +52,6 @@ The agent uses sensors like cameras and motion detectors to observe activity and
 
 ## Program
 ```
-<h1>ExpNo 1 :Developing AI Agent with PEAS Description</h1>
-<h3>Name: Farhana H</h3>
-<h3>Register Number: 212223230057 </h3>
-
-<h3>AIM:</h3>
-<br>
-
-<p>To find the PEAS description for the given AI problem and develop an AI agent.</p>
-
-<h3>Theory</h3>
-<h3>AI Surveillance System Agent:</h3>
-<p>
-This agent monitors a restricted area using cameras and detects suspicious activity such as unauthorized entry or unusual movement. The environment consists of multiple zones (e.g., Zone A and Zone B). The agent continuously scans both zones.
-
-If suspicious activity is detected in any zone, the agent raises an alert. The agent's performance improves when it correctly detects threats and decreases when it wastes time scanning empty zones or misses detection.
-
-The agent uses sensors like cameras and motion detectors to observe activity and actuators such as alarms and notifications to respond..</p>
-<hr>
-<h3>PEAS DESCRIPTION:</h3>
-<table>
-  <tr>
-    <td><strong>Agent Type</strong></td>
-    <td><strong>Performance</strong></td>
-     <td><strong>Environment</strong></td>
-    <td><strong>Actuators</strong></td>
-    <td><strong>Sensors</strong></td>
-  </tr>
-    <tr>
-    <td><strong>AI Surveillance System</strong></td>
-    <td><strong>Accurate threat detection, minimal false alarms</strong></td>
-     <td><strong>Monitored zones, people movement</strong></td>
-    <td><strong>Alarm, alert system</strong></td>
-    <td><strong>Cameras, motion sensors</strong></td>
-  </tr>
-</table>
-<hr>
-<H3>DESIGN STEPS</H3>
-<h3>STEP 1:Identifying the input:</h3>
-<p>Motion detection status (Yes/No)</p>
-<p>Zone location (Zone A / Zone B)</p>
-<h3>STEP 2:Identifying the output:</h3>
-<p>Trigger alert if suspicious activity is detected.</p>
-<h3>STEP 3:Developing the PEAS description:</h3>
-<p>PEAS description is developed by identifying performance, environment, actuators, and sensors of the agent..</p>
-<h3>STEP 4:Implementing the AI agent:</h3>
-<p>Monitor both zones</p>
-<p>Detect suspicious activity randomly</p>
-<p>Raise alert if detected</p>
-<h3>STEP 5:</h3>
-<p>Increase performance for correct detection</p>
-<p>Decrease performance for unnecessary scanning</p>
-
-## Program
-```python
 import random
 import time
 
@@ -184,6 +130,7 @@ class SurveillanceAgent:
 zones = ["Zone A", "Zone B", "Zone C"]
 agent = SurveillanceAgent(zones)
 agent.run()
+
 ```
 
 ## Output
